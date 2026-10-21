@@ -59,7 +59,7 @@ Everything starts **Off**, so the game plays exactly like the original until you
 ### Gameplay
 - **Modern Ranged Combat** — the shuriken is always on B and gone from the inventory; ranged weapons fire with
   RT; aim the bow and the Gatling Speargun with LT and the right stick; move and shoot while aiming the bow.
-- **Sigma Reticle** — the Sigma aiming reticle for the bow.
+- **Sigma Reticle** — the Sigma aiming reticle for the bow and the Gatling Speargun.
 - **Block on LB** — swaps LT and LB.
 - **Infinite Ammo** — arrows and shuriken never run out; the ammo counter is hidden.
 - **Sigma Framedata Backport** — move timing from Sigma 2 and Black: dash into run, water moves, landing and more.
