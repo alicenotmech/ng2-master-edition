@@ -119,8 +119,14 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584.
 - **Widescreen 21:9** is in the same patch file, switched off. For a 3440x1440 picture, also set Xenia's
   resolution scale to 2.
-- **To start the game again, close Xenia completely and open it again** — for example after you change something in
-  Xenia's patch list. If you stop the game and start it again in the same Xenia window loading a save can crash. **This is a bug in Xenia's plugin system, not in the mod!**
+
+## Known Issues
+
+- **Xenia restart crash** — restarting the game in the same Xenia window can cause a crash when loading a save.
+  **Close Xenia completely before starting again.** This is a bug in Xenia's plugin system, not in the mod.
+- **60 FPS Cutscenes** — audio may gradually go out of sync in some cutscenes, especially with Japanese voices.
+  If this happens, try turning this option off.
+- **Infinite Ninpo HUD** — charge icons can disappear after using ninpo even though you can still keep casting it.
 
 ## Credits
 
