@@ -2,7 +2,7 @@
 
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
-A enhancement mod a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
+An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
 ## What you get
 
