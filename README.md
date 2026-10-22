@@ -47,8 +47,8 @@ Xenia program).
 | Linux | `~/.local/share/Xenia` | the folder with the Xenia program |
 | macOS | `~/.local/share/Xenia` | the folder with the Xenia program |
 
-- On Linux and macOS, `.local` is a hidden folder. To see it: in most Linux file managers press **Ctrl+H**;
-  in macOS Finder press **Cmd+Shift+.** (period).
+- On Linux and macOS, `.local` is a hidden folder. To see it: in most Linux file managers press **Ctrl+H**,
+  and in macOS Finder press **Cmd+Shift+.** (period).
 - On Linux, if you set `XDG_DATA_HOME` yourself, the folder is `$XDG_DATA_HOME/Xenia` instead.
 
 ## Menu options
@@ -57,11 +57,11 @@ Everything starts **Off**, so the game plays exactly like the original until you
 
 ### Gameplay
 - **Modern Ranged Combat** — the shuriken is always on B and gone from the inventory, ranged weapons fire with
-  RT; aim the bow and the Gatling Speargun with LT and the right stick, move and shoot while aiming the bow.
+  RT. Aim the bow and the Gatling Speargun with LT and the right stick, move and shoot while aiming the bow.
 - **Sigma Reticle** — the Sigma aiming reticle for the bow and the Gatling Speargun.
 - **Block on LB** — swaps LT and LB.
 - **Infinite Ammo** — arrows and shuriken never run out, the ammo counter is hidden.
-- **Sigma Framedata Backport** — move timing from Sigma 2 and Black: dash into run, water moves, landing transitions. Not affecting gameplay in general, but make controls much responsive. 
+- **Sigma Framedata Backport** — move timing from Sigma 2 and Black: dash into run, water moves, landing transitions. Not affecting gameplay in general, but make controls much responsive.
 - **Weapon Property Fixes** — ported from Fiend Busa's
   [Weapon Property Fixes](https://www.nexusmods.com/ninjagaiden2black/mods/100) for Ninja Gaiden 2 Black.
   Only the changes that apply to the original game and differ from it are included: tracking on Flail
@@ -86,7 +86,7 @@ Everything starts **Off**, so the game plays exactly like the original until you
 - **First Time Cutscene Skip** — you can skip any cutscene, even the first time you see it.
 - **Auto-Skip All Cutscenes** — every cutscene and movie is skipped automatically.
 - **HUD** — show the HUD, let it fade out when you're not fighting, or hide it.
-- **Hide Combat Counters** — hides the hit counter, karma and boss health; health, ninpo and ammo stay.
+- **Hide Combat Counters** — hides the hit counter, karma and boss health, while health, ninpo and ammo stay.
   A test feature for further experiments with HUD options.
 - **Reduced Input Delay** — the game normally keeps up to two finished frames waiting before it shows them, and
   that waiting is the delay you feel.
