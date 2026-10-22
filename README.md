@@ -67,8 +67,7 @@ Everything starts **Off**, so the game plays exactly like the original until you
 ### Camera
 - **Modern Camera** — a free and more comfortable camera, ported from the modern versions of Ninja Gaiden II.
   Applies when you load a save
-- **OT/UT Free Camera** — keep camera control during Obliteration Techniques, Ultimate Techniques, throws and
-  more
+- **OT/UT Free Camera** — keep camera control during OT, UT, throws etc.
 - **No Screen Shake** — no shake on hits, finishers and explosions
 
 ### QoL
