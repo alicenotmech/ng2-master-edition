@@ -2,14 +2,14 @@
 
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
-A big mod for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
+Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
 ## What you get
 
 - **In-Game Mod Menu** — MASTER OPTIONS, with a bunch of toggles that work right in the game!
-- **Modern Camera** — a reworked, free and more comfortable camera, ported from the modern versions of
+- **Modern Camera** — a reworked, free and more comfortable camera, backported from the modern versions of
   Ninja Gaiden II.
-- **Modern Ranged Combat** — Sigma-style bow and shuriken controls!
+- **Modern Ranged Combat** — Sigma 2 ranged weapon controls, even for Gatling Speargun. Now shuriken is ALWAYS B!
 - **Weapon & Movement Tweaks**
   - **Sigma Framedata Backport** — small frame data tweaks from the modern versions of the game, mostly
     smoother and more responsive transitions between Ryu's moves.
@@ -17,25 +17,24 @@ A big mod for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 - **Quality of Life** — skip the death screen, skip cutscenes, reduced input delay, consistent 60 fps
   cutscenes, a HUD that fades out when you're not fighting, and more!
 - **Visual Options** — less bloom, no blur effects, MORE BLOOD AND GORE!
-- **Cheat Menu** — all weapons, infinite HP and ninpo, including Freeze Enemies!
 - **21:9 Ultrawide Support** — in Xenia's patch list!
+- **Cheat Menu** — all weapons, infinite HP and ninpo, including Freeze Enemies!
 
 ## What you need
 
 - Your own copy of **Ninja Gaiden II** with **Title Update 3** installed in Xenia.
-  Any format works: ISO, GOD or an unpacked game folder. Your game files are not changed.
 - **Xenia Edge**.
 
 ## How to install
 
-1. Download `master_options.zip` from the [latest release](../../releases/latest) and open it. Inside is a folder called `xenia`.
+1. Download `master_edition.zip` from the [latest release](../../releases/latest) and open it. Inside is a folder called `xenia`.
 2. Copy everything from that `xenia` folder into **Xenia's own folder** (see the table below). If you're asked
    about folders that already exist, agree to merge them.
 3. In Xenia's settings, turn on plugins (`allow_plugins = true`).
-4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu (press BACK).
+4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu.
 
-If you already use other patches or plugins for Ninja Gaiden II, make a copy of them first. Don't mix this mod
-with older Ninja Gaiden II patch files.
+If you already use other patches or plugins for Ninja Gaiden II, make a copy of them first. **Don't mix this mod
+with older Ninja Gaiden II patch files!**
 
 ### Where is Xenia's own folder?
 
@@ -118,11 +117,8 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 - Most options work right away. **Modern Ranged Combat** and **Modern Camera** kick in the next time you load a
   save. If you change them during play, the menu reminds you with "Reload required".
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584.
-- **Widescreen 21:9** is in the same patch file, switched off. To use it, turn off "1280x720 Resolution", turn on
-  all four "Ultrawide" entries in Xenia's patch list and restart Xenia. For a 3440x1440 picture, also set Xenia's
+- **Widescreen 21:9** is in the same patch file, switched off. For a 3440x1440 picture, also set Xenia's
   resolution scale to 2.
-- In Xenia's patch list, leave the "Master Menu" and "Master Options" entries on — they are what makes the menu
-  work. Choose your options in the game, not there.
 
 ## Credits
 
