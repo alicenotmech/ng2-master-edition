@@ -27,7 +27,7 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
 
 ## How to install
 
-1. Back up your `Ninja Gaiden II.toml` patch files from the `patches` folder
+1. Back up any existing Ninja Gaiden II `.patch.toml` files from the `patches` folder. Keep the backup outside that folder.
 2. Download `master-edition.zip` from the [latest release](../../releases/latest) and extract it
 3. Copy the `patches` and `plugins` folders into:
    - Windows: `Documents\Xenia`
