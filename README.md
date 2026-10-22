@@ -7,7 +7,7 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 ## What you get
 
 - **In-Game Mod Menu**: MASTER OPTIONS, with a bunch of toggles that work right in the game
-- **Modern Camera**: a reworked, free and more comfortable camera, backported from the modern versions of
+- **Modern Camera**: reworked and more comfortable camera, backported from the modern versions of
   Ninja Gaiden II
 - **Modern Ranged Combat**: Sigma ranged weapon controls, even for Gatling Speargun. Now shuriken is ALWAYS B!
 - **Weapon & Movement Tweaks**
