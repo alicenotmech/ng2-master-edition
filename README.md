@@ -121,6 +121,7 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 
 ## Credits
 
-alicenotmech — mod author. 1280x720 Resolution patch by Margen67.
-Weapon Property Fixes ported from the Ninja Gaiden 2 Black mod by Fiend Busa.
+Mod by alicenotmech  
+1280x720 Resolution patch by Margen67.  
+Weapon Property Fixes ported from the Ninja Gaiden 2 Black mod by Fiend Busa.  
 Ninja Gaiden II © KOEI TECMO GAMES / Team NINJA. This is an unofficial fan project.
