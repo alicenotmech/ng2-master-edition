@@ -107,8 +107,7 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 - Most options work right away. **Modern Ranged Combat** and **Modern Camera** kick in the next time you load a
   save. If you change them during play, the menu reminds you with "Reload required"
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584
-- **Widescreen 21:9** is in the same patch file, switched off. For a 3440x1440 picture, also set Xenia's
-  resolution scale to 2
+- **Widescreen 21:9**: For a 3440x1440 picture, also set Xenia's resolution scale to 2
 
 ## Known Issues
 
