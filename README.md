@@ -124,8 +124,8 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 
 - **Xenia restart crash** — restarting the game in the same Xenia window can cause a crash when loading a save.
   **Close Xenia completely before starting again.** This is a bug in Xenia's plugin system, not in the mod.
-- **60 FPS Cutscenes** — audio may gradually go out of sync in some cutscenes, especially with Japanese voices.
-  If this happens, try turning this option off.
+- **60 FPS Cutscenes** — in my experience, audio seems to gradually go out of sync in some cutscenes.
+  This still needs more testing and research.
 - **Infinite Ninpo HUD** — charge icons can disappear after using ninpo even though you can still keep casting it.
 
 ## Credits
