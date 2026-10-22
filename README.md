@@ -32,10 +32,12 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 2. Copy `patches` and `plugins` folders into:
   - Windows: `Documents\Xenia`
   - Windows with portable.txt: directly in folder with `xenia-edge.exe`
-  - macOS: `/username/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
+  - macOS: `~/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
   - Linux:  `~/.local/share/Xenia`
 3. In Xenia's settings, turn on plugins: `Configuration > General > allow_plugins` or in config `allow_plugins = true`  
 4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
+
+Stability on Linux and macOS is NOT GUARANTED 'cause those builds are still less polished and unstable.
 
 If you already use other patches or plugins for Ninja Gaiden II, make a copy of them first. **Don't mix this mod
 with other Ninja Gaiden II patch files!**
