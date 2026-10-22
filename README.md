@@ -27,7 +27,7 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 
 ## How to install
 
-1. Download `master_edition.zip` from the [latest release](../../releases/latest) and open it. Inside is a folder called `xenia`.
+1. Download `master-edition.zip` from the [latest release](../../releases/latest) and open it. Inside is a folder called `xenia`.
 2. Copy everything from that `xenia` folder into **Xenia's own folder** (see the table below). If you're asked
    about folders that already exist, agree to merge them.
 3. In Xenia's settings, turn on plugins (`allow_plugins = true`).
@@ -119,6 +119,8 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584.
 - **Widescreen 21:9** is in the same patch file, switched off. For a 3440x1440 picture, also set Xenia's
   resolution scale to 2.
+- **To start the game again, close Xenia completely and open it again** — for example after you change something in
+  Xenia's patch list. If you stop the game and start it again in the same Xenia window, loading a save can crash.
 
 ## Credits
 
