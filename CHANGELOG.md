@@ -2,7 +2,7 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
-## [1.0.0] - unreleased
+## [1.0.0] - 2026-10-22
 
 First release.
 
