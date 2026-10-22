@@ -6,50 +6,39 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 
 ## What you get
 
-- **In-Game Mod Menu** — MASTER OPTIONS, with a bunch of toggles that work right in the game!
+- **In-Game Mod Menu** — MASTER OPTIONS, with a bunch of toggles that work right in the game
 - **Modern Camera** — a reworked, free and more comfortable camera, backported from the modern versions of
-  Ninja Gaiden II.
+  Ninja Gaiden II
 - **Modern Ranged Combat** — Sigma 2 ranged weapon controls, even for Gatling Speargun. Now shuriken is ALWAYS B!
 - **Weapon & Movement Tweaks**
   - **Sigma Framedata Backport** — small frame data tweaks from the modern versions of the game, mostly
-    smoother and more responsive transitions between Ryu's moves.
-  - **Weapon Property Fixes** — a port of Fiend Busa's mod for more precise tracking on several weapons.
+    smoother and more responsive transitions between Ryu's moves
+  - **Weapon Property Fixes** — a port of Fiend Busa's mod for more precise tracking on several weapons
 - **Quality of Life** — skip the death screen, skip cutscenes, reduced input delay, consistent 60 fps
-  cutscenes, a HUD that fades out when you're not fighting, and more!
+  cutscenes, a HUD that fades out when you're not fighting, and more
 - **Visual Options** — less bloom, no blur effects, MORE BLOOD AND GORE!
-- **21:9 Ultrawide Support** — in Xenia's patch list!
-- **Cheat Menu** — all weapons, infinite HP and ninpo, including Freeze Enemies!
+- **21:9 Ultrawide Support** — in Xenia's patch list
+- **Cheat Menu** — all weapons, infinite HP and ninpo, including Freeze Enemies
 
 ## What you need
 
-- Your own copy of **Ninja Gaiden II** with **Title Update 3** installed in Xenia.
-- **Xenia Edge**.
+- Your own copy of **Ninja Gaiden II** with **Title Update 3** installed in Xenia
+- **Xenia Edge**
 
 ## How to install
 
-1. Download `master-edition.zip` from the [latest release](../../releases/latest) and open it. Inside is a folder called `xenia`.
-2. Copy everything from that `xenia` folder into **Xenia's own folder** (see the table below). If you're asked
-   about folders that already exist, agree to merge them.
-3. In Xenia's settings, turn on plugins (`allow_plugins = true`).
-4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu.
+0. **Backup your .toml patch files from `patches` folder**
+1. Download `master-edition.zip` from the [latest release](../../releases/latest) and extract it
+2. Copy `patches` and `plugins` folders into:
+- Windows: `Documents\Xenia`
+- Windows with portable.txt: directly in folder with xenia-edge.exe
+- macOS: `/username/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
+- Linux:  `~/.local/share/Xenia`
+3. In Xenia's settings, turn on plugins: in config `allow_plugins = true` or in Xenia itself `Configuration > General > allow_plugins`
+4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
 
 If you already use other patches or plugins for Ninja Gaiden II, make a copy of them first. **Don't mix this mod
-with older Ninja Gaiden II patch files!**
-
-### Where is Xenia's own folder?
-
-It depends on your system and on whether your Xenia is *portable* (has a `portable.txt` file next to the
-Xenia program).
-
-| System | Normal Xenia | Portable Xenia |
-|---|---|---|
-| Windows | `Documents\Xenia` | the folder with `xenia_edge.exe` |
-| Linux | `~/.local/share/Xenia` | the folder with the Xenia program |
-| macOS | `~/.local/share/Xenia` | the folder with the Xenia program |
-
-- On Linux and macOS, `.local` is a hidden folder. To see it: in most Linux file managers press **Ctrl+H**,
-  and in macOS Finder press **Cmd+Shift+.** (period).
-- On Linux, if you set `XDG_DATA_HOME` yourself, the folder is `$XDG_DATA_HOME/Xenia` instead.
+with other Ninja Gaiden II patch files!**
 
 ## Menu options
 
