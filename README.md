@@ -30,10 +30,10 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 0. Backup your .toml patch files from `patches` folder
 1. Download `master-edition.zip` from the [latest release](../../releases/latest) and extract it
 2. Copy `patches` and `plugins` folders into:
-- Windows: `Documents\Xenia`
-- Windows with portable.txt: directly in folder with `xenia-edge.exe`
-- macOS: `/username/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
-- Linux:  `~/.local/share/Xenia`
+ - Windows: `Documents\Xenia`
+ - Windows with portable.txt: directly in folder with `xenia-edge.exe`
+ - macOS: `/username/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
+ - Linux:  `~/.local/share/Xenia`
 3. In Xenia's settings, turn on plugins: `Configuration > General > allow_plugins` or in config `allow_plugins = true`  
 4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
 
