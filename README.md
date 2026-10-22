@@ -6,19 +6,19 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 
 ## What you get
 
-- **In-Game Mod Menu** — MASTER OPTIONS, with a bunch of toggles that work right in the game
-- **Modern Camera** — a reworked, free and more comfortable camera, backported from the modern versions of
+- **In-Game Mod Menu**: MASTER OPTIONS, with a bunch of toggles that work right in the game
+- **Modern Camera**: a reworked, free and more comfortable camera, backported from the modern versions of
   Ninja Gaiden II
-- **Modern Ranged Combat** — Sigma 2 ranged weapon controls, even for Gatling Speargun. Now shuriken is ALWAYS B!
+- **Modern Ranged Combat**: Sigma 2 ranged weapon controls, even for Gatling Speargun. Now shuriken is ALWAYS B!
 - **Weapon & Movement Tweaks**
-  - **Sigma Framedata Backport** — small frame data tweaks from the modern versions of the game, mostly
+  - **Sigma Framedata Backport**: small frame data tweaks from the modern versions of the game, mostly
     smoother and more responsive transitions between Ryu's moves
-  - **Weapon Property Fixes** — a port of Fiend Busa's mod for more precise tracking on several weapons
-- **Quality of Life** — skip the death screen, skip cutscenes, reduced input delay, consistent 60 fps
+  - **Weapon Property Fixes**: a port of Fiend Busa's mod for more precise tracking on several weapons
+- **Quality of Life**: skip the death screen, skip cutscenes, reduced input delay, consistent 60 fps
   cutscenes, a HUD that fades out when you're not fighting, and more
-- **Visual Options** — less bloom, no blur effects, MORE BLOOD AND GORE!
-- **21:9 Ultrawide Support** — in Xenia's patch list
-- **Cheat Menu** — all weapons, infinite HP and ninpo, including Freeze Enemies
+- **Visual Options**: less bloom, no blur effects, MORE BLOOD AND GORE!
+- **21:9 Ultrawide Support**: in Xenia's patch list
+- **Cheat Menu**: all weapons, infinite HP and ninpo, including Freeze Enemies
 
 ## What you need
 
