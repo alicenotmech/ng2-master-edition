@@ -103,8 +103,8 @@ Everything starts **Off**, so the game plays exactly like the original until you
 - **No Post-Effects** — no blur, no white flashes.
 
 ### Cheats
-- **Infinite HP** — Ryu's health keeps refilling.
-- **Infinite Ninpo** — use ninpo without using it up.
+- **Infinite HP**
+- **Infinite Ninpo**
 - **Freeze Enemies** — enemies stand still.
 - **All Weapons and Ninpo** — every weapon and ninpo from the start, at Lv1 or Lv3.
 - **All Crystal Skulls** — all 30 crystal skulls count as collected.
