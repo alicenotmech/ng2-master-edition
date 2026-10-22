@@ -1,8 +1,8 @@
-# NINJA GAIDEN II — Master Edition
+# Ninja Gaiden II Master Edition
 
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
-Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
+A mod menu with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
 ## What you get
 
@@ -27,24 +27,25 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 
 ## How to install
 
-0. Backup your .toml patch files from `patches` folder
-1. Download `master-edition.zip` from the [latest release](../../releases/latest) and extract it
-2. Copy `patches` and `plugins` folders into:
-  - Windows: `Documents\Xenia`
-  - Windows with portable.txt: directly in folder with `xenia-edge.exe`
-  - macOS: `~/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
-  - Linux:  `~/.local/share/Xenia`
-3. In Xenia's settings, turn on plugins: `Configuration > General > allow_plugins` or in config `allow_plugins = true`  
-4. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
+1. Back up your `.toml` patch files from the `patches` folder
+2. Download `master-edition.zip` from the [latest release](../../releases/latest) and extract it
+3. Copy the `patches` and `plugins` folders into:
+   - Windows: `Documents\Xenia`
+   - Windows with `portable.txt`: directly into the folder with `xenia_edge.exe`
+   - macOS: `~/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
+   - Linux: `~/.local/share/Xenia`
+4. In Xenia's settings, turn on plugins: `Configuration > General > allow_plugins` or in config `allow_plugins = true`
+5. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
 
-Stability on Linux and macOS is NOT GUARANTED 'cause those builds are still less polished and unstable.
+Xenia Edge builds for Linux and macOS are still unstable. Stability is not guaranteed, and issues on these
+platforms may come from the emulator rather than the mod.
 
 If you already use other patches or plugins for Ninja Gaiden II, make a copy of them first. **Don't mix this mod
 with other Ninja Gaiden II patch files!**
 
 ## Menu options
 
-Everything starts **Off**, so the game plays exactly like the original until you turn something on.
+All menu options start **Off**.
 
 ### Gameplay
 - **Modern Ranged Combat** — the shuriken is always on B and gone from the inventory, ranged weapons fire with
@@ -52,7 +53,8 @@ Everything starts **Off**, so the game plays exactly like the original until you
 - **Sigma Reticle** — the Sigma aiming reticle for the bow and the Gatling Speargun
 - **Block on LB** — swaps LT and LB
 - **Infinite Ammo** — arrows and shuriken never run out, the ammo counter is hidden
-- **Sigma Framedata Backport** — move timing from Sigma 2 and Black: dash into run, water moves, landing transitions. Not affecting gameplay in general, but make controls much responsive.
+- **Sigma Framedata Backport** — move timing from Sigma 2 and Black: dash into run, water moves, landing transitions.
+  These tweaks keep the core gameplay intact but make the controls much more responsive
 - **Weapon Property Fixes** — ported from Fiend Busa's
   [Weapon Property Fixes](https://www.nexusmods.com/ninjagaiden2black/mods/100) for Ninja Gaiden 2 Black
   Only the changes that apply to the original game and differ from it are included: tracking on Flail
@@ -60,7 +62,7 @@ Everything starts **Off**, so the game plays exactly like the original until you
 - **Lunar XY Launcher** — Lunar XY launches enemies, like in Sigma
 - **IS Single Shuriken** — IS ninjas throw one Incendiary Shuriken
 - **IS Visibility** — less intense Incendiary Shuriken explosions
-- **IS Fuse** — the IS ninjas' Incendiary Shuriken stick into walls and explode after, like in the 2008
+- **IS Fuse** — the IS ninjas' Incendiary Shuriken stick into walls and explode after a short delay, like in the 2008
   prototype
 - **Ryu Fuse** — the same for Ryu's Incendiary Shuriken
 
@@ -82,7 +84,7 @@ Everything starts **Off**, so the game plays exactly like the original until you
   that waiting is the delay you feel
   - **-1** lets only one frame wait: about one frame less delay (three frames become two)
   - **Max** lets no frames wait: the lowest delay. The game then waits for your graphics card every frame,
-    so it needs a performance headroom, or it may stutter
+    so it needs some performance headroom, or it may stutter
 - **60 FPS Cutscenes** — cutscenes run at a steady 60 fps
 - **All Difficulties Unlocked** — Mentor and Master Ninja are available for a New Game
 
