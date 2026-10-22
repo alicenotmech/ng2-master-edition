@@ -22,8 +22,8 @@ Mod-menu with bunch of features for the original **Ninja Gaiden II** on the **Xe
 
 ## What you need
 
+- [Xenia Edge](https://github.com/has207/xenia-edge)
 - Your own copy of **Ninja Gaiden II** with **Title Update 3** installed in Xenia
-- **Xenia Edge**
 
 ## How to install
 
