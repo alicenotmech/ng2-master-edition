@@ -76,7 +76,6 @@ All menu options start **Off**.
 - **Skip Death Screen** — skips the GAME OVER screen
 - **Auto Chapter Screen** — chapter title cards and mission briefings continue without a button press
 - **First Time Cutscene Skip** — you can skip any cutscene, even the first time you see it
-- **Auto-Skip All Cutscenes** — every cutscene and movie is skipped automatically
 - **HUD** — show the HUD, let it fade out when you're not fighting, or hide it
 - **Hide Combat Counters** — hides the hit counter, karma and boss health, while health, ninpo and ammo stay.
   A test feature for further experiments with HUD options
@@ -118,6 +117,7 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 - **60 FPS Cutscenes** — in my experience, audio seems to gradually go out of sync in some cutscenes
   This still needs more testing and research
 - **Infinite Ninpo HUD** — charge icons can disappear after using ninpo even though you can still keep casting it
+- **21:9 death slow motion** — the screen stays black while Ryu dies in slow motion, then GAME OVER appears as usual
 
 ## Credits
 
