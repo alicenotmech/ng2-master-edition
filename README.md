@@ -23,7 +23,7 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
 ## What you need
 
 - [Xenia Edge](https://github.com/has207/xenia-edge)
-- Your own copy of **Ninja Gaiden II** with **Title Update 3** installed in Xenia
+- Your own copy of **Ninja Gaiden II World** (Media ID 69F555CB) with **Title Update 3** installed in Xenia
 
 ## How to install
 
@@ -35,7 +35,10 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
    - macOS: `~/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
    - Linux: `~/.local/share/Xenia`
 4. In Xenia's settings, turn on plugins: `Configuration > General > allow_plugins` or in config `allow_plugins = true`
-5. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
+5. MAKE SURE YOU HAVE ONLY `Title Update #3` IN `Content` section:
+<img width="838" height="644" alt="image" src="https://github.com/user-attachments/assets/f8b1b6c8-f92b-461f-85fc-38ccce9d07f8" />
+
+6. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
 
 Xenia Edge builds for Linux and macOS are still unstable. Stability is not guaranteed, and issues on these
 platforms may come from the emulator rather than the mod.
