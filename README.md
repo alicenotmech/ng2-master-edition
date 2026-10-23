@@ -23,7 +23,13 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
 ## What you need
 
 - [Xenia Edge](https://github.com/has207/xenia-edge)
-- Your own copy of **Ninja Gaiden II World** (Media ID 69F555CB) with **Title Update 3** installed in Xenia
+- Your own copy of **Ninja Gaiden II (World)** release with **Media ID 69F555CB**, or the **Japanese** release with
+  **Media ID 0E6FB1CE**. Xenia shows the Media ID in the `Info` tab
+
+  <img width="394" alt="Xenia Info tab showing Media ID 69F555CB" src="images/xenia-media-id.png" />
+
+- **Title Update 3** for your release, installed in Xenia. See [Title Update notes](#title-update-notes) for the
+  exact files
 
 ## How to install
 
@@ -35,8 +41,10 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
    - macOS: `~/.local/share/Xenia` (hidden folder, press **Cmd+Shift+.** in Finder)
    - Linux: `~/.local/share/Xenia`
 4. In Xenia's settings, turn on plugins: `Configuration > General > allow_plugins` or in config `allow_plugins = true`
-5. MAKE SURE YOU HAVE ONLY `Title Update #3` IN `Content` section:
-<img width="838" height="644" alt="image" src="https://github.com/user-attachments/assets/f8b1b6c8-f92b-461f-85fc-38ccce9d07f8" />
+5. **Title Update #3 must be the only title update in Xenia.** Delete any other one, or Xenia may load it instead and
+   the mod will not start
+
+   <img width="560" alt="Xenia Content tab with only Title Update #3 installed" src="https://github.com/user-attachments/assets/f8b1b6c8-f92b-461f-85fc-38ccce9d07f8" />
 
 6. Start the game. You'll find **MASTER OPTIONS** in the title menu, and in the pause menu
 
@@ -112,6 +120,21 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
   save. If you change them during play, the menu reminds you with "Reload required"
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584
 - **Widescreen 21:9**: For a 3440x1440 picture, also set Xenia's resolution scale to 2
+
+## Title Update notes
+
+| Release | Media ID | Title Update in Xenia | File | Size | SHA-256 |
+|---|---|---|---|---|---|
+| World | `69F555CB` | Ninja Gaiden 2 Title Update #3 | `TU_1A461UL_000000G000000.00000000000O4` | 2,486,272 bytes | `93efbdda961d4b75d3c1a68083f85b61c1758e1136dfa4a581a9196620502aeb` |
+| Japanese | `0E6FB1CE` | Ninja Gaiden 2 (Re-sign) Title Update #3 | `TU_1A461UL_000000C000000.00000000000O3` | 2,486,272 bytes | `1adc81d4c0de67a9489ea2164e42617759f697f64461b51fbd6ec01ed6e72a06` |
+
+With the right title update, `xenia.log` contains the line `Module Hash: 4CC4201C0C4ED58B` after the game starts.
+If that line is missing, the mod will not load
+
+- **Only one title update.** With Title Update #2 and #3 installed at the same time, Xenia can load #2, and the mod
+  does not start. Keep only #3
+- **Matching title update.** Both releases run the same game code, so the mod works with either TU3. Use the one
+  for your release: the Japanese TU3 on the World release also works, but Xenia warns about a hash mismatch
 
 ## Known Issues
 
