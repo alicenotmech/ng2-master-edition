@@ -6,12 +6,11 @@ All notable changes to Ninja Gaiden II Master Edition are listed here. Versions 
 
 Bug fixes.
 
-- Fixed a crash on the first attack with the Eclipse Scythe. Dragon's Claw and Tiger's Fang and the Kusari-gama
+- Fixed a crash on the first attack with the Eclipse Scythe. Dragon's Claw, Tiger's Fang and the Kusari-gama
   could be affected the same way.
-- Fixed Modern Camera slowly breaking the game during long play: slowdown, a stretched Ryu, falling through the
-  floor and finally a crash (seen in chapter 13).
-- 21:9: the New Game+ confirmation and GAME OVER screens are now centred.
-- Removed Auto-Skip All Cutscenes: skipping a cutscene while it was still loading could crash the game.
+- Fixed Modern Camera slowly breaking the game (especially Chapter 13).
+- 21:9: the New Game+ confirmation and GAME OVER screens are now align properly.
+- Removed Auto-Skip All Cutscenes: skipping a cutscene while it was still loading could crash the game. Will fix in further updates
 
 ## [1.0.0] - 2026-10-22
 
