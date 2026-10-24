@@ -168,8 +168,6 @@ If that line is missing, the mod will not load
   **Close Xenia completely before starting again.** This is a bug in Xenia's plugin system, not in the mod
 - **60 FPS Cutscenes** — in my experience, audio seems to gradually go out of sync in some cutscenes
   This still needs more testing and research
-- **Infinite Ninpo HUD** — charge icons can disappear after using ninpo even though you can still keep casting it
-- **21:9 death slow motion** — the screen stays black while Ryu dies in slow motion, then GAME OVER appears as usual
 
 ## Credits
 
