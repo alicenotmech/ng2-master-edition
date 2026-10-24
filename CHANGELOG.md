@@ -16,7 +16,6 @@ Visual update and fixes.
 - Free camera in special moves: no more camera pulse during OTs.
 - Ryu Fuse: a stuck Incendiary Shuriken no longer plays the explosion sound on contact, only when it explodes.
 - Removed the leftover "Master Menu" entry from the title Options screen.
-- Fully compatible with Path of the Dragon Ninja and Master Normal.
 
 ## [1.0.1] - 2026-10-23
 
