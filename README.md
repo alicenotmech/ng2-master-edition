@@ -145,6 +145,10 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584
 - **Widescreen 21:9**: For a 3440x1440 picture, also set Xenia's resolution scale to 2
 - **Hi-Res Font** (off by default): sharp UI text at Xenia scale 2x. Applies after restarting the game
+
+  ![Hi-Res Font, before and after: weapon details](images/font_compare_details.jpg)
+
+  ![Hi-Res Font, before and after: pause menu](images/font_compare_options.jpg)
 - **Experimental: Native 2x MSAA** (off by default, 16:9 only): smoother edges, higher GPU load. Don't use it together
   with Widescreen 21:9
 
