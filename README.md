@@ -2,7 +2,8 @@
 
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
-> ### 1.0.2 Visual Update is live!
+> [!TIP]
+> **1.0.2 Visual Update is live!**
 > - No more floor and texture shimmer at Xenia scale 2x
 > - Smooth HUD and menus: no more pixel steps
 > - Sharp shadows in combat too
