@@ -2,6 +2,22 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.0.2] - 2026-10-24
+
+Visual update and fixes.
+
+- New in MASTER OPTIONS > Visual: Texture LOD Bias (0 / -1.0 / -1.5, default 0 removes the floor and texture shimmer at Xenia scale 2x), Hi-res Shadows (always the 1024 shadow map, on by default), Skip 4x MSAA Clear (10-15% less GPU load, same picture, on by default).
+- HUD and menu sprites are now filtered: no more pixel steps at Xenia scale 2x.
+- New optional patches, off by default: Hi-Res Font (sharp UI text at Xenia scale 2x) and Experimental: Native 2x MSAA (16:9 only).
+- MASTER OPTIONS now shows in every game language (title menu and pause screen).
+- 21:9: the screen no longer goes black during Ryu's death slow motion.
+- No Post-Effects keeps the death blur.
+- Infinite Ninpo: the ninpo icons on the HUD burn and refill correctly.
+- Free camera in special moves: no more camera pulse during OTs.
+- Ryu Fuse: a stuck Incendiary Shuriken no longer plays the explosion sound on contact, only when it explodes.
+- Removed the leftover "Master Menu" entry from the title Options screen.
+- Fully compatible with Path of the Dragon Ninja and Master Normal.
+
 ## [1.0.1] - 2026-10-23
 
 Bug fixes.

@@ -2,6 +2,13 @@
 
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
+> ### 1.0.2 Visual Update is live!
+> - No more floor and texture shimmer at Xenia scale 2x
+> - Smooth HUD and menus: no more pixel steps
+> - Sharp shadows in combat too
+> - 10-15% less GPU load with the same picture
+> - Optional sharp UI text and experimental 2x MSAA
+
 An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
 ## What you get
@@ -103,6 +110,22 @@ All menu options start **Off**.
 - **More Blood Particles** — bigger blood spray on every hit and delimb
 - **Reduce Bloom** — bloom at half strength, less overexposure
 - **No Post-Effects** — no blur, no white flashes
+- **Texture LOD Bias** — 0 removes the floor and texture shimmer at Xenia scale 2x (default). -1.0 is the Sigma 2
+  value, -1.5 the original
+
+  ![Texture LOD Bias: -1.5 (original) vs 0](images/lod_before_after.webp)
+
+  [Full-quality video](images/lod_before_after.mp4)
+- **Hi-res Shadows** — always the 1024 shadow map; the original drops to 512 in combat. On by default
+- **Skip 4x MSAA Clear** — 10-15% less GPU load, same picture. On by default
+
+HUD and menu sprites are always filtered: no more pixel steps at Xenia scale 2x
+
+![HUD emblem, before and after](images/ui_filter_emblem_zoom.jpg)
+
+![Health bar, before and after](images/ui_filter_hud_top.jpg)
+
+![Weapon menu, before and after](images/ui_filter_weapon_menu.jpg)
 
 ### Cheats
 - **Infinite HP**
@@ -120,6 +143,9 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
   save. If you change them during play, the menu reminds you with "Reload required"
 - **1280x720** is on by default: the game renders at 1280x720 instead of its native 1120x584
 - **Widescreen 21:9**: For a 3440x1440 picture, also set Xenia's resolution scale to 2
+- **Hi-Res Font** (off by default): sharp UI text at Xenia scale 2x. Applies after restarting the game
+- **Experimental: Native 2x MSAA** (off by default, 16:9 only): smoother edges, higher GPU load. Don't use it together
+  with Widescreen 21:9
 
 ## Title Update notes
 
