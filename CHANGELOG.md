@@ -2,6 +2,10 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.0.2 Hotfix 1] - 2026-10-25
+
+- Fixed: Vigoorian Flail air Y chain with Modern Ranged Combat.
+
 ## [1.0.2] - 2026-10-24
 
 Visual update and fixes.
