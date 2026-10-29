@@ -3,12 +3,11 @@
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
 > [!TIP]
-> **1.0.2 Visual Update is live!**
-> - No more floor and texture shimmer at Xenia scale 2x
-> - Smooth HUD and menus: no more pixel steps
-> - Sharp shadows in combat too
-> - 10-15% less GPU load with the same picture
-> - Optional sharp UI text and experimental 2x MSAA
+> **1.0.3 Update is live!**
+> - Weapon Appearance: choose how each melee weapon looks
+> - Hide the bow and the Gatling Speargun on Ryu's back
+> - The camera speed sliders now work with Modern Camera
+> - Fixed: the bow's Ultimate Technique charge on RT, ambient sounds (the chapter 5 fountain) and Muramasa's shop controls
 
 An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
@@ -68,7 +67,9 @@ All menu options start **Off**.
 
 ### Gameplay
 - **Modern Ranged Combat** — the shuriken is always on B and gone from the inventory, ranged weapons fire with
-  RT. Aim the bow and the Gatling Speargun with LT and the right stick, move and shoot while aiming the bow
+  RT. Aim the bow and the Gatling Speargun with LT and the right stick, move and shoot while aiming the bow.
+  Holding RT charges the bow's Ultimate Technique, like in the original game.
+  The game's **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LT aim camera
 - **Sigma Reticle** — the Sigma aiming reticle for the bow and the Gatling Speargun
 - **Block on LB** — swaps LT and LB
 - **Infinite Ammo** — arrows and shuriken never run out, the ammo counter is hidden
@@ -87,7 +88,7 @@ All menu options start **Off**.
 
 ### Camera
 - **Modern Camera** — a free and more comfortable camera, ported from the modern versions of Ninja Gaiden II.
-  Applies when you load a save
+  The game's camera speed sliders work with it. Applies when you load a save
 - **OT/UT Free Camera** — keep camera control during OT, UT, throws etc.
 - **No Screen Shake** — no shake on hits, finishers and explosions
 
@@ -119,8 +120,11 @@ All menu options start **Off**.
   [Full-quality video](images/lod_before_after.mp4)
 - **Hi-res Shadows** — always the 1024 shadow map; the original drops to 512 in combat. On by default
 - **Skip 4x MSAA Clear** — 10-15% less GPU load, same picture. On by default
-
-HUD and menu sprites are always filtered: no more pixel steps at Xenia scale 2x
+- **Hide Ranged on Back** — the bow and the Gatling Speargun are not shown on Ryu's back. In his hands they look as
+  usual. Co-created with [MegidoKira](https://github.com/MegidoKira)
+- **Weapon Appearance** — a submenu: choose how each melee weapon looks (Lv1, Lv2 or Lv3), or one look for all of
+  them with **All Weapons**
+- **Smooth HUD and Menus** — HUD and menu sprites are smoothed: no more pixel steps at Xenia scale 2x
 
 ![HUD emblem, before and after](images/ui_filter_emblem_zoom.jpg)
 
@@ -179,4 +183,5 @@ If that line is missing, the mod will not load
 Mod by alicenotmech  
 1280x720 Resolution patch by Margen67.  
 Weapon Property Fixes ported from the Ninja Gaiden 2 Black mod by Fiend Busa.  
+Hide Ranged on Back co-created with [MegidoKira](https://github.com/MegidoKira).  
 Ninja Gaiden II © KOEI TECMO GAMES / Team NINJA. This is an unofficial fan project.

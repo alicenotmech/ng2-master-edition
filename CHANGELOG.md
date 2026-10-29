@@ -2,6 +2,19 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.0.3] - 2026-10-30
+
+Fixes and new Visual options.
+
+- Fixed: with Modern Ranged Combat, holding RT charges the bow's Ultimate Technique again, like in the original game.
+- Fixed: wrong ambient sounds in some places, for example the fountain in chapter 5 (every 1.0.x release).
+- Fixed: Muramasa's shop controls (B closes the shop, RT switches to the Blacksmith, Block on LB no longer switches the shop tabs).
+- The game's camera speed sliders now work with Modern Camera.
+- New in MASTER OPTIONS > Visual: Hide Ranged on Back (the bow and the Gatling Speargun are not shown on Ryu's back; co-created with [MegidoKira](https://github.com/MegidoKira)).
+- New in MASTER OPTIONS > Visual: Weapon Appearance submenu (the look of each melee weapon, Lv1 / Lv2 / Lv3, or one look for all with All Weapons).
+- The HUD and menu smoothing from 1.0.2 is now a toggle: Smooth HUD and Menus in MASTER OPTIONS > Visual, off by default.
+- MASTER OPTIONS lists now wrap around.
+
 ## [1.0.2 Hotfix 1] - 2026-10-25
 
 - Fixed: Vigoorian Flail air Y chain with Modern Ranged Combat.
