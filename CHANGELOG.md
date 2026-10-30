@@ -2,6 +2,11 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.0.3 Hotfix 1] - 2026-10-30
+
+- Fixed: Weapon Appearance. With a look different from the weapon's level, blood didn't build up on the blade.
+- Fixed: with Modern Ranged Combat, the Blade of the Archfiend combo X, X, X, X, Y left Ryu stuck in the air.
+
 ## [1.0.3] - 2026-10-30
 
 Fixes and new Visual options.
