@@ -2,6 +2,14 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.0.3 Hotfix 2] - 2026-10-31
+
+- Lunar XY Launcher: after the launch, the air combo is now X, X, Y into the Izuna Drop, like in Sigma 2, and Ryu no longer drifts forward with every air hit. Works with or without Modern Ranged Combat, in the story and in Mission Mode.
+- Lunar XY Launcher: XY now launches Gaja too.
+- Lunar XY Launcher: XY and the forward Y, Y combo no longer throw enemies too high.
+- Lunar XY Launcher no longer changes the regular jumping X, X combo.
+- Fixed: All Weapons and Ninpo at Lv1 removed the Dragon Sword from the inventory.
+
 ## [1.0.3 Hotfix 1] - 2026-10-30
 
 - Fixed: Weapon Appearance. With a look different from the weapon's level, blood didn't build up on the blade.
