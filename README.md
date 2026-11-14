@@ -201,4 +201,6 @@ Mod by alicenotmech
 1280x720 Resolution patch by Margen67.  
 Hide Ranged on Back co-created with [MegidoKira](https://github.com/MegidoKira).  
 Instant Charge and Rich Essence are based on Xenia patches by bader0418.  
+Thanks to Fiend Busa for the Ninja Gaiden 2 Black mod Weapon Property Fixes, ported in 1.0.x.  
+Thanks to the testers: griever666, DarkMelody, Wedcone, Arzo, Hinzoto and GiladN.  
 Ninja Gaiden II © KOEI TECMO GAMES / Team NINJA. This is an unofficial fan project.
