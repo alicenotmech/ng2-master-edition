@@ -2,6 +2,41 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.1.0] - 2026-11-14
+
+Combat fixes, new cheats and visual options, and MASTER OPTIONS as its own title menu item.
+
+### Gameplay
+
+- New: **ME Combat Fixes** replaces Weapon Property Fixes. Fixes combat flaws of the original game: attacks while
+  touching a wall or jumping off it aim at the enemy and connect, OTs on enemies lying on the ground connect, several
+  moves aim at enemies more reliably, and with Dragon's Claw and Tiger's Fang the Y, Y, Forward+Y launcher lifts Gaja
+  properly and its second Y no longer launches dogs. Applies when you load a save.
+- Removed: **Weapon Property Fixes** and **Sigma Framedata Backport**.
+- Modern Ranged Combat related bug fixed: the Blade of the Archfiend finisher dealt an extra late hit.
+- Modern Ranged Combat now works with Ninpo too - aim with right stick!
+
+### Visual
+
+- New: **Smooth Normal Maps**, on by default. Removes the moving bands on surfaces and softens highlights. Off keeps
+  the original look.
+- **Hi-res Shadows** is now off by default.
+- Fixed (always on): the flickering column and spire geometry in chapter 6, and the missing rose window in Mission 4.
+
+### Cheats
+
+- New: **One-Hit Kill**. Any hit that deals damage kills the enemy.
+- New: **Instant Charge** (ET and UT charge at once) and **Rich Essence** (every yellow essence pickup gives
+  10,000). Ported from bader0418's Xenia patches.
+- Reworked: **Infinite HP**. Ryu takes no damage at any upgrade level, and turning it off no longer leaves the health
+  bar at its full-upgrade length.
+- Fixed: **Infinite Ninpo** now lets you cast ninpo even when the ninpo gauge is empty, for example at the very
+  start of the game.
+
+### Menu
+
+- MASTER OPTIONS is now its own item in the title menu, no longer opened through Options.
+
 ## [1.0.3 Hotfix 2] - 2026-10-31
 
 Fixes for Lunar XY Launcher:

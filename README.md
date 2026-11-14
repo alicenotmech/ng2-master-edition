@@ -3,11 +3,12 @@
 ![Ninja Gaiden II Master Edition](images/banner.jpg)
 
 > [!TIP]
-> **1.0.3 Update is live!**
-> - Weapon Appearance: choose how each melee weapon looks
-> - Hide the bow and the Gatling Speargun on Ryu's back
-> - The camera speed sliders now work with Modern Camera
-> - Fixed: the bow's Ultimate Technique charge on RT, ambient sounds (the chapter 5 fountain) and Muramasa's shop controls
+> **1.1.0 Update is live!**
+> - ME Combat Fixes: wall attacks aim and connect, OTs on enemies on the ground connect, several moves aim better
+> - New cheats: One-Hit Kill, Instant Charge and Rich Essence
+> - Smooth Normal Maps: no more moving bands on surfaces
+> - MASTER OPTIONS is now its own item in the title menu
+> - Modern Ranged Combat now works with Ninpo too - aim with right stick!
 
 An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
@@ -18,9 +19,8 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
   Ninja Gaiden II
 - **Modern Ranged Combat**: Sigma ranged weapon controls, even for Gatling Speargun. Now shuriken is ALWAYS B!
 - **Weapon & Movement Tweaks**
-  - **Sigma Framedata Backport**: small frame data tweaks from the modern versions of the game, mostly
-    smoother and more responsive transitions between Ryu's moves
-  - **Weapon Property Fixes**: a port of Fiend Busa's mod for more precise tracking on several weapons
+  - **ME Combat Fixes**: fixes for combat flaws of the original game: wall attacks, OTs on enemies on the ground,
+    aiming of several moves, and enemies that react wrongly to some combos
 - **Quality of Life**: skip the death screen, skip cutscenes, reduced input delay, consistent 60 fps
   cutscenes, a HUD that fades out when you're not fighting, and more
 - **Visual Options**: less bloom, no blur effects, MORE BLOOD AND GORE!
@@ -66,25 +66,37 @@ with other Ninja Gaiden II patch files!**
 All menu options start **Off**.
 
 ### Gameplay
+- **ME Combat Fixes** — fixes for combat flaws of the original game. Attacks while touching a wall or jumping off
+  it aim at the enemy and connect, OTs on enemies lying on the ground connect, and several moves aim at enemies more
+  reliably. With Dragon's Claw and Tiger's Fang, the Y, Y, Forward+Y launcher now lifts Gaja properly, and its
+  second Y no longer launches dogs. Applies when you load a save
 - **Modern Ranged Combat** — the shuriken is always on B and gone from the inventory, ranged weapons fire with
-  RT. Aim the bow and the Gatling Speargun with LT and the right stick, move and shoot while aiming the bow.
+  RT. Aim the bow and the Gatling Speargun with LB and the right stick, move and shoot while aiming the bow.
+  Ninpo can be aimed with the right stick too.
   Holding RT charges the bow's Ultimate Technique, like in the original game.
-  The game's **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LT aim camera
+  The game's **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LB aim camera
 - **Sigma Reticle** — the Sigma aiming reticle for the bow and the Gatling Speargun
 - **Block on LB** — swaps LT and LB
 - **Infinite Ammo** — arrows and shuriken never run out, the ammo counter is hidden
-- **Sigma Framedata Backport** — move timing from Sigma 2 and Black: dash into run, water moves, landing transitions.
-  These tweaks keep the core gameplay intact but make the controls much more responsive
-- **Weapon Property Fixes** — ported from Fiend Busa's
-  [Weapon Property Fixes](https://www.nexusmods.com/ninjagaiden2black/mods/100) for Ninja Gaiden 2 Black
-  Only the changes that apply to the original game and differ from it are included: tracking on Flail
-  Forward Y, Lunar 360 UT, Dual Sword Forward Y, Tonfa Flying Swallow and Flail running X
 - **Lunar XY Launcher** — Lunar XY launches enemies, like in Sigma
 - **IS Single Shuriken** — IS ninjas throw one Incendiary Shuriken
 - **IS Visibility** — less intense Incendiary Shuriken explosions
 - **IS Fuse** — the IS ninjas' Incendiary Shuriken stick into walls and explode after a short delay, like in the 2008
   prototype
 - **Ryu Fuse** — the same for Ryu's Incendiary Shuriken
+
+#### Modern Ranged Combat controls
+
+| Button | Action |
+|---|---|
+| B | Shuriken (always; it is no longer in the inventory) |
+| RT | Fire the equipped ranged weapon |
+| Hold RT | Charge the bow's Ultimate Technique |
+| LB (hold) | Aim the bow or the Gatling Speargun; aim with the right stick, move with the left stick |
+| LT | Block |
+| Right stick | Aim ninpo while you cast it (cast as in the original game) |
+
+**Block on LB** swaps them: block on LB, aim on LT. Everything else is as in the original game.
 
 ### Camera
 - **Modern Camera** — a free and more comfortable camera, ported from the modern versions of Ninja Gaiden II.
@@ -118,7 +130,9 @@ All menu options start **Off**.
   ![Texture LOD Bias: -1.5 (original) vs 0](images/lod_before_after.webp)
 
   [Full-quality video](images/lod_before_after.mp4)
-- **Hi-res Shadows** — always the 1024 shadow map; the original drops to 512 in combat. On by default
+- **Smooth Normal Maps** — normal maps are filtered smoothly: no moving bands on surfaces, softer highlights. Off
+  keeps the original look. On by default
+- **Hi-res Shadows** — always the 1024 shadow map; the original drops to 512 in combat
 - **Skip 4x MSAA Clear** — 10-15% less GPU load, same picture. On by default
 - **Hide Ranged on Back** — the bow and the Gatling Speargun are not shown on Ryu's back. In his hands they look as
   usual. Co-created with [MegidoKira](https://github.com/MegidoKira)
@@ -133,9 +147,12 @@ All menu options start **Off**.
 ![Weapon menu, before and after](images/ui_filter_weapon_menu.jpg)
 
 ### Cheats
-- **Infinite HP**
+- **Infinite HP** — Ryu takes no damage
 - **Infinite Ninpo**
 - **Freeze Enemies** — enemies stand still
+- **One-Hit Kill** — any hit kills an enemy
+- **Instant Charge** — charge attacks reach ET and UT at once
+- **Rich Essence** — each yellow essence pickup gives 10,000
 - **All Weapons and Ninpo** — every weapon and ninpo from the start, at Lv1 or Lv3
 - **All Crystal Skulls** — all 30 crystal skulls count as collected
 - **Max HP and Ninpo** — full health and ninpo upgrades from the start
@@ -182,6 +199,6 @@ If that line is missing, the mod will not load
 
 Mod by alicenotmech  
 1280x720 Resolution patch by Margen67.  
-Weapon Property Fixes ported from the Ninja Gaiden 2 Black mod by Fiend Busa.  
 Hide Ranged on Back co-created with [MegidoKira](https://github.com/MegidoKira).  
+Instant Charge and Rich Essence are based on Xenia patches by bader0418.  
 Ninja Gaiden II © KOEI TECMO GAMES / Team NINJA. This is an unofficial fan project.
