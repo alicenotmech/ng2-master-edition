@@ -75,6 +75,19 @@ All menu options start **Off**.
   Ninpo can be aimed with the right stick too.
   Holding RT charges the bow's Ultimate Technique, like in the original game.
   The game's **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LB aim camera
+
+  **Controls:**
+
+  | Button | Action |
+  |---|---|
+  | B | Shuriken (always; it is no longer in the inventory) |
+  | RT | Fire the equipped ranged weapon |
+  | Hold RT | Charge the bow's Ultimate Technique |
+  | LB (hold) | Aim the bow or the Gatling Speargun; aim with the right stick, move with the left stick |
+  | LT | Block |
+  | Right stick | Aim ninpo while you cast it (cast as in the original game) |
+
+  **Block on LB** swaps them: block on LB, aim on LT. Everything else is as in the original game.
 - **Sigma Reticle**. The Sigma aiming reticle for the bow and the Gatling Speargun
 - **Block on LB**. Swaps LT and LB
 - **Infinite Ammo**. Arrows and shuriken never run out, the ammo counter is hidden
@@ -84,19 +97,6 @@ All menu options start **Off**.
 - **IS Fuse**. The IS ninjas' Incendiary Shuriken stick into walls and explode after a short delay, like in the 2008
   prototype
 - **Ryu Fuse**. The same for Ryu's Incendiary Shuriken
-
-#### Modern Ranged Combat controls
-
-| Button | Action |
-|---|---|
-| B | Shuriken (always; it is no longer in the inventory) |
-| RT | Fire the equipped ranged weapon |
-| Hold RT | Charge the bow's Ultimate Technique |
-| LB (hold) | Aim the bow or the Gatling Speargun; aim with the right stick, move with the left stick |
-| LT | Block |
-| Right stick | Aim ninpo while you cast it (cast as in the original game) |
-
-**Block on LB** swaps them: block on LB, aim on LT. Everything else is as in the original game.
 
 ### Camera
 - **Modern Camera**. A free and more comfortable camera, ported from the modern versions of Ninja Gaiden II.
