@@ -70,11 +70,10 @@ All menu options start **Off**.
   it aim at the enemy and connect, OTs on enemies lying on the ground connect, and several moves aim at enemies more
   reliably. With Dragon's Claw and Tiger's Fang, the Y, Y, Forward+Y launcher now lifts Gaja properly, and its
   second Y no longer launches dogs. Applies when you load a save
-- **Modern Ranged Combat**. The shuriken is always on B and gone from the inventory, ranged weapons fire with
-  RT. Aim the bow and the Gatling Speargun with LB and the right stick, move and shoot while aiming the bow.
-  Ninpo can be aimed with the right stick too.
-  Holding RT charges the bow's Ultimate Technique, like in the original game.
-  The game's **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LB aim camera
+- **Modern Ranged Combat**. The shuriken is always on B and gone from the inventory, ranged weapons fire with RT.
+  Aim the bow and the Gatling Speargun with LB and the right stick, move and shoot while aiming the bow. Ninpo can
+  be aimed with the right stick too. Holding RT charges the bow's Ultimate Technique. The game's
+  **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LB aim camera
 
   **Controls:**
 
