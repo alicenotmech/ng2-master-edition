@@ -66,24 +66,24 @@ with other Ninja Gaiden II patch files!**
 All menu options start **Off**.
 
 ### Gameplay
-- **ME Combat Fixes** — fixes for combat flaws of the original game. Attacks while touching a wall or jumping off
+- **ME Combat Fixes**. Fixes for combat flaws of the original game. Attacks while touching a wall or jumping off
   it aim at the enemy and connect, OTs on enemies lying on the ground connect, and several moves aim at enemies more
   reliably. With Dragon's Claw and Tiger's Fang, the Y, Y, Forward+Y launcher now lifts Gaja properly, and its
   second Y no longer launches dogs. Applies when you load a save
-- **Modern Ranged Combat** — the shuriken is always on B and gone from the inventory, ranged weapons fire with
+- **Modern Ranged Combat**. The shuriken is always on B and gone from the inventory, ranged weapons fire with
   RT. Aim the bow and the Gatling Speargun with LB and the right stick, move and shoot while aiming the bow.
   Ninpo can be aimed with the right stick too.
   Holding RT charges the bow's Ultimate Technique, like in the original game.
   The game's **1st-Person Cam. Speed** and **1st-Person Camera Control** settings also apply to the LB aim camera
-- **Sigma Reticle** — the Sigma aiming reticle for the bow and the Gatling Speargun
-- **Block on LB** — swaps LT and LB
-- **Infinite Ammo** — arrows and shuriken never run out, the ammo counter is hidden
-- **Lunar XY Launcher** — Lunar XY launches enemies, like in Sigma
-- **IS Single Shuriken** — IS ninjas throw one Incendiary Shuriken
-- **IS Visibility** — less intense Incendiary Shuriken explosions
-- **IS Fuse** — the IS ninjas' Incendiary Shuriken stick into walls and explode after a short delay, like in the 2008
+- **Sigma Reticle**. The Sigma aiming reticle for the bow and the Gatling Speargun
+- **Block on LB**. Swaps LT and LB
+- **Infinite Ammo**. Arrows and shuriken never run out, the ammo counter is hidden
+- **Lunar XY Launcher**. Lunar XY launches enemies, like in Sigma
+- **IS Single Shuriken**. IS ninjas throw one Incendiary Shuriken
+- **IS Visibility**. Less intense Incendiary Shuriken explosions
+- **IS Fuse**. The IS ninjas' Incendiary Shuriken stick into walls and explode after a short delay, like in the 2008
   prototype
-- **Ryu Fuse** — the same for Ryu's Incendiary Shuriken
+- **Ryu Fuse**. The same for Ryu's Incendiary Shuriken
 
 #### Modern Ranged Combat controls
 
@@ -99,50 +99,50 @@ All menu options start **Off**.
 **Block on LB** swaps them: block on LB, aim on LT. Everything else is as in the original game.
 
 ### Camera
-- **Modern Camera** — a free and more comfortable camera, ported from the modern versions of Ninja Gaiden II.
+- **Modern Camera**. A free and more comfortable camera, ported from the modern versions of Ninja Gaiden II.
   The game's camera speed sliders work with it. Applies when you load a save
-- **OT/UT Free Camera** — keep camera control during OT, UT, throws etc.
-- **No Screen Shake** — no shake on hits, finishers and explosions
+- **OT/UT Free Camera**. Keep camera control during OT, UT, throws etc.
+- **No Screen Shake**. No shake on hits, finishers and explosions
 
 ### QoL
-- **Skip Death Screen** — skips the GAME OVER screen
-- **Auto Chapter Screen** — chapter title cards and mission briefings continue without a button press
-- **First Time Cutscene Skip** — you can skip any cutscene, even the first time you see it
-- **HUD** — show the HUD, let it fade out when you're not fighting, or hide it
-- **Hide Combat Counters** — hides the hit counter, karma and boss health, while health, ninpo and ammo stay.
+- **Skip Death Screen**. Skips the GAME OVER screen
+- **Auto Chapter Screen**. Chapter title cards and mission briefings continue without a button press
+- **First Time Cutscene Skip**. You can skip any cutscene, even the first time you see it
+- **HUD**. Show the HUD, let it fade out when you're not fighting, or hide it
+- **Hide Combat Counters**. Hides the hit counter, karma and boss health, while health, ninpo and ammo stay.
   A test feature for further experiments with HUD options
-- **Reduced Input Delay** — the game normally keeps up to two finished frames waiting before it shows them, and
+- **Reduced Input Delay**. The game normally keeps up to two finished frames waiting before it shows them, and
   that waiting is the delay you feel
   - **-1** lets only one frame wait: about one frame less delay (three frames become two)
   - **Max** lets no frames wait: the lowest delay. The game then waits for your graphics card every frame,
     so it needs some performance headroom, or it may stutter
-- **60 FPS Cutscenes** — cutscenes run at a steady 60 fps
-- **All Difficulties Unlocked** — Mentor and Master Ninja are available for a New Game
+- **60 FPS Cutscenes**. Cutscenes run at a steady 60 fps
+- **All Difficulties Unlocked**. Mentor and Master Ninja are available for a New Game
 
 ### Visual
-- **More Blood** — twice as much blood stays on floors and walls
-- **More Blood Particles** — bigger blood spray on every hit and delimb
-- **Reduce Bloom** — bloom at half strength, less overexposure
-- **No Post-Effects** — no blur, no white flashes
-- **Texture LOD Bias** — 0 removes the floor and texture shimmer at Xenia scale 2x (default). -1.0 is the Sigma 2
+- **More Blood**. Twice as much blood stays on floors and walls
+- **More Blood Particles**. Bigger blood spray on every hit and delimb
+- **Reduce Bloom**. Bloom at half strength, less overexposure
+- **No Post-Effects**. No blur, no white flashes
+- **Texture LOD Bias**. 0 removes the floor and texture shimmer at Xenia scale 2x (default). -1.0 is the Sigma 2
   value, -1.5 the original
 
   ![Texture LOD Bias: -1.5 (original) vs 0](images/lod_before_after.webp)
 
   [Full-quality video](images/lod_before_after.mp4)
-- **Smooth Normal Maps** — trilinear filtering for normal maps: no moving bands on surfaces, softer highlights.
+- **Smooth Normal Maps**. Trilinear filtering for normal maps: no moving bands on surfaces, softer highlights.
   Works best with Texture LOD Bias 0. Off keeps the original look. On by default
 
   ![Smooth Normal Maps: Off (original) vs On](images/normals_before_after.webp)
 
   [Full-quality video](images/normals_before_after.mp4)
-- **Hi-res Shadows** — always the 1024 shadow map; the original drops to 512 in combat
-- **Skip 4x MSAA Clear** — 10-15% less GPU load, same picture. On by default
-- **Hide Ranged on Back** — the bow and the Gatling Speargun are not shown on Ryu's back. In his hands they look as
+- **Hi-res Shadows**. Always the 1024 shadow map; the original drops to 512 in combat
+- **Skip 4x MSAA Clear**. 10-15% less GPU load, same picture. On by default
+- **Hide Ranged on Back**. The bow and the Gatling Speargun are not shown on Ryu's back. In his hands they look as
   usual. Co-created with [MegidoKira](https://github.com/MegidoKira)
-- **Weapon Appearance** — a submenu: choose how each melee weapon looks (Lv1, Lv2 or Lv3), or one look for all of
+- **Weapon Appearance**. A submenu: choose how each melee weapon looks (Lv1, Lv2 or Lv3), or one look for all of
   them with **All Weapons**
-- **Smooth HUD and Menus** — HUD and menu sprites are smoothed: no more pixel steps at Xenia scale 2x
+- **Smooth HUD and Menus**. HUD and menu sprites are smoothed: no more pixel steps at Xenia scale 2x
 
 ![HUD emblem, before and after](images/ui_filter_emblem_zoom.jpg)
 
@@ -151,15 +151,15 @@ All menu options start **Off**.
 ![Weapon menu, before and after](images/ui_filter_weapon_menu.jpg)
 
 ### Cheats
-- **Infinite HP** — Ryu takes no damage
+- **Infinite HP**. Ryu takes no damage
 - **Infinite Ninpo**
-- **Freeze Enemies** — enemies stand still
-- **One-Hit Kill** — any hit kills an enemy
-- **Instant Charge** — charge attacks reach ET and UT at once
-- **Rich Essence** — each yellow essence pickup gives 10,000
-- **All Weapons and Ninpo** — every weapon and ninpo from the start, at Lv1 or Lv3
-- **All Crystal Skulls** — all 30 crystal skulls count as collected
-- **Max HP and Ninpo** — full health and ninpo upgrades from the start
+- **Freeze Enemies**. Enemies stand still
+- **One-Hit Kill**. Any hit kills an enemy
+- **Instant Charge**. Charge attacks reach ET and UT at once
+- **Rich Essence**. Each yellow essence pickup gives 10,000
+- **All Weapons and Ninpo**. Every weapon and ninpo from the start, at Lv1 or Lv3
+- **All Crystal Skulls**. All 30 crystal skulls count as collected
+- **Max HP and Ninpo**. Full health and ninpo upgrades from the start
 
 Cheats that give items or upgrades stay in your save if you save the game at a statue
 
@@ -194,9 +194,9 @@ If that line is missing, the mod will not load
 
 ## Known Issues
 
-- **Xenia restart crash** — restarting the game in the same Xenia window can cause a crash when loading a save
+- **Xenia restart crash**. Restarting the game in the same Xenia window can cause a crash when loading a save
   **Close Xenia completely before starting again.** This is a bug in Xenia's plugin system, not in the mod
-- **60 FPS Cutscenes** — in my experience, audio seems to gradually go out of sync in some cutscenes
+- **60 FPS Cutscenes**. In my experience, audio seems to gradually go out of sync in some cutscenes
   This still needs more testing and research
 
 ## Credits
