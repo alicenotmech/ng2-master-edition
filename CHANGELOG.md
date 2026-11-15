@@ -18,8 +18,8 @@ Combat fixes, new cheats and visual options, and MASTER OPTIONS as its own title
 
 ### Visual
 
-- New: **Smooth Normal Maps**, on by default. Removes the moving bands on surfaces and softens highlights. Off keeps
-  the original look.
+- New: **Smooth Normal Maps**, on by default. Trilinear filtering for normal maps: removes the moving bands on
+  surfaces and softens highlights. Works best with Texture LOD Bias 0 (the default). Off keeps the original look.
 - **Hi-res Shadows** is now off by default.
 - Fixed (always on): the flickering column and spire geometry in chapter 6, and the missing rose window in Mission 4.
 
