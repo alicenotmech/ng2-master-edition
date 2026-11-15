@@ -7,8 +7,8 @@
 > - ME Combat Fixes: wall attacks targeting, OTs on downed enemies and several launchers act more consistently
 >   ([details](#gameplay))
 > - New cheats: One-Hit Kill, Instant UT Charge and Rich Essence
-> - Graphical fixes: no more broken geometry in Chapter 6 and missing window in Mission 4, and filtered normal maps!
-> - Many other little bugfixes!
+> - Graphical fixes: no more broken geometry and missing window in Ch6 / Mission 4, and filtered normal maps!
+> - Many other little bugfixes
 
 An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
