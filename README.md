@@ -128,14 +128,10 @@ All menu options start **Off**.
   value, -1.5 the original
 
   ![Texture LOD Bias: -1.5 (original) vs 0](images/lod_before_after.webp)
-
-  [Full-quality video](images/lod_before_after.mp4)
 - **Smooth Normal Maps**. Trilinear filtering for normal maps: no moving bands on surfaces, softer highlights.
   Works best with Texture LOD Bias 0. Off keeps the original look. On by default
 
-  ![Smooth Normal Maps: Off (original) vs On](images/normals_before_after.webp)
-
-  [Full-quality video](images/normals_before_after.mp4)
+  ![Smooth Normal Maps: Off (original) vs On](images/normals_side_by_side.webp)
 - **Hi-res Shadows**. Always the 1024 shadow map; the original drops to 512 in combat
 - **Skip 4x MSAA Clear**. 10-15% less GPU load, same picture. On by default
 - **Hide Ranged on Back**. The bow and the Gatling Speargun are not shown on Ryu's back. In his hands they look as
