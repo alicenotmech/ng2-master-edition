@@ -4,11 +4,11 @@
 
 > [!TIP]
 > **1.1.0 Update is live!**
-> - ME Combat Fixes: wall attacks aim and connect, OTs on enemies on the ground connect, several moves aim better
-> - New cheats: One-Hit Kill, Instant Charge and Rich Essence
-> - Smooth Normal Maps: no more moving bands on surfaces
-> - MASTER OPTIONS is now its own item in the title menu
-> - Modern Ranged Combat now works with Ninpo too - aim with right stick!
+> - ME Combat Fixes: wall attacks targeting, OTs on downed enemies and several launchers act more consistently
+>   ([details](#gameplay))
+> - New cheats: One-Hit Kill, Instant UT Charge and Rich Essence
+> - Graphical fixes: no more broken geometry in Chapter 6 and missing window in Mission 4, and filtered normal maps!
+> - Many other little bugfixes!
 
 An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
