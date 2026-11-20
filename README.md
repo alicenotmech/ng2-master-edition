@@ -12,8 +12,6 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
 > - Various bugfixes
 
 > [!NOTE]
-> **Contact:** questions, bug reports and ideas go to my [Discord](https://discord.com/users/371353069201653773).
->
 > **Working on a port, a recompilation or another mod?** I know the mod's code is out there and can be taken apart.
 > Still, please ask me before you port my features to your project. Message me on
 > [Discord](https://discord.com/users/371353069201653773): that way I know where my work is used, and I can help you
