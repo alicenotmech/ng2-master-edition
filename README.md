@@ -2,14 +2,14 @@
 
 ![Ninja Gaiden II Master Edition](images/banner_v11b.jpg)
 
-An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
-
 > [!TIP]
 > **1.1.1 Update is live!**
 > - Improved Reduced Input Delay
 > - Wall attack aiming in ME Combat Fixes
 > - 2x MSAA fixes
 > - Various bugfixes
+
+An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
 
 ## What you get
 
