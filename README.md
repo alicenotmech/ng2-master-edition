@@ -11,12 +11,6 @@ An enhancement mod with a bunch of features for the original **Ninja Gaiden II**
 > - 2x MSAA fixes
 > - Various bugfixes
 
-> [!NOTE]
-> **Working on a port, a recompilation or another mod?** I know the mod's code is out there and can be taken apart.
-> Still, please ask me before you port my features to your project. Message me on
-> [Discord](https://discord.com/users/371353069201653773): that way I know where my work is used, and I can help you
-> port my own features properly.
-
 ## What you get
 
 - **In-Game Mod Menu**: MASTER OPTIONS, with a bunch of toggles that work right in the game
@@ -206,6 +200,12 @@ If that line is missing, the mod will not load
   This still needs more testing and research
 
 ## License
+
+> [!NOTE]
+> **Working on a port, a recompilation or another mod?** I know the mod's code is out there and can be taken apart.
+> Still, please ask me before you port my features to your project. Message me on
+> [Discord](https://discord.com/users/371353069201653773): that way I know where my work is used, and I can help you
+> port my own features properly.
 
 **Permission required.** Free to use with your own copy of the game. Using the mod's code, patches or other
 parts in other projects (ports, recompilations, other mods) and re-uploading the mod need my permission: ask me on
