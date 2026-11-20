@@ -1,0 +1,9 @@
+name: Feature request
+description: Suggest a new option, a fix for the original game, or a change to an existing feature
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Description

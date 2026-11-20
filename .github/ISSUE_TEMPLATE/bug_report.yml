@@ -1,0 +1,22 @@
+name: Issue report
+description: Something in the mod doesn't work, crashes or looks wrong
+title: "[Issue] "
+labels: ["issue"]
+body:
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version
+      placeholder: "1.1.1"
+    validations:
+      required: true
+  - type: input
+    id: emulator_version
+    attributes:
+      label: Xenia version
+      description: The build or the date you downloaded it
+      placeholder: "e.g. the release from 2026-11-10"
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: Description

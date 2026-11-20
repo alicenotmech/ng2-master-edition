@@ -2,6 +2,44 @@
 
 All notable changes to Ninja Gaiden II Master Edition are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [1.1.1] - 2026-11-20
+
+Improved Reduced Input Delay, wall attack aiming, 2x MSAA fixes and an Infinite Ninpo fix.
+
+### Gameplay
+
+- **ME Combat Fixes**: better aim for wall attacks with the Dragon Sword, Vigoorian Flail, Lunar staff and
+  Falcon's Talons
+  - X off a wall with the stick held now goes where the stick points. Before, the target was picked on the mirrored
+    side
+  - Falcon's Talons remember the stick direction during the wind-up
+  - With the stick released, the attack picks the enemy in front of you as you leave the wall, and closer enemies
+    win over far ones
+
+### Performance
+
+- Improved: **Reduced Input Delay**. One frame less delay (about 35 ms down to about 18 ms
+  on screen), with frames still at an even pace. On works on most PCs; Max shows each frame a little sooner, but
+  needs some performance headroom. Needs Xenia's `framerate_limit = 0` and no FPS cap in RTSS or the graphics
+  driver
+
+### Visual
+
+- Fixed: with **Experimental: Native 2x MSAA**, the fade after a death or a chapter load showed an old picture
+  (pause menu, title screen)
+
+### Cheats
+
+- Fixed: **Infinite Ninpo** with an empty ninpo gauge now fills the gauge on the first cast. Before, it let you cast
+  but the gauge stayed empty
+
+### License
+
+- The mod is now **Permission required**: using its code, patches or other parts in other projects (ports,
+  recompilations, other mods) and re-uploading it need my permission. Ask me on
+  [Discord](https://discord.com/users/371353069201653773). Versions before 1.1.1 stay under the MIT License. See
+  LICENSE
+
 ## [1.1.0] - 2026-11-14
 
 Combat fixes, new cheats and visual options, and MASTER OPTIONS as its own title menu item.

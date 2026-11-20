@@ -3,14 +3,22 @@
 ![Ninja Gaiden II Master Edition](images/banner_v11b.jpg)
 
 > [!TIP]
-> **1.1.0 Update is live!**
-> - ME Combat Fixes: wall attacks targeting, OTs on downed enemies and several launchers act more consistently
->   ([details](#gameplay))
-> - New cheats: One-Hit Kill, Instant UT Charge and Rich Essence
-> - Graphical fixes: no more broken geometry and missing window in Ch6 / Mission 4, and filtered normal maps!
-> - Many other little bugfixes
+> **1.1.1 Update is live!**
+> - Improved Reduced Input Delay
+> - Wall attack aiming in ME Combat Fixes
+> - 2x MSAA fixes
+> - Various bugfixes
 
 An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
+
+> [!NOTE]
+> **Contact:** questions, bug reports and ideas go to my [Discord](https://discord.com/users/371353069201653773).
+>
+> **Working on a port, a recompilation or another mod?** I know the mod's code is out there and can be taken apart.
+> Still, please ask me before you port my features to your project. Message me on
+> [Discord](https://discord.com/users/371353069201653773): that way I know where my work is used, and I can help you
+> port my own features properly. A lot of them depend on small details of the game's code that are easy to miss in
+> a blind copy.
 
 ## What you get
 
@@ -70,6 +78,11 @@ All menu options start **Off**.
   it aim at the enemy and connect, OTs on enemies lying on the ground connect, and several moves aim at enemies more
   reliably. With Dragon's Claw and Tiger's Fang, the Y, Y, Forward+Y launcher now lifts Gaja properly, and its
   second Y no longer launches dogs. Applies when you load a save
+  - Wall attacks with the Dragon Sword, Vigoorian Flail, Lunar staff and Falcon's Talons: X off a wall with the
+    stick held goes where the stick points (the original game picked the target on the mirrored side)
+  - Falcon's Talons remember the stick direction during the wall attack wind-up
+  - With the stick released, wall attacks pick the enemy in front of you as you leave the wall, and closer enemies
+    win over far ones
 - **Modern Ranged Combat**. The shuriken is always on B and gone from the inventory, ranged weapons fire with RT.
   Aim the bow and the Gatling Speargun with LB and the right stick, move and shoot while aiming the bow. Ninpo can
   be aimed with the right stick too. Holding RT charges the bow's Ultimate Technique. The game's
@@ -110,11 +123,11 @@ All menu options start **Off**.
 - **HUD**. Show the HUD, let it fade out when you're not fighting, or hide it
 - **Hide Combat Counters**. Hides the hit counter, karma and boss health, while health, ninpo and ammo stay.
   A test feature for further experiments with HUD options
-- **Reduced Input Delay**. The game normally keeps up to two finished frames waiting before it shows them, and
-  that waiting is the delay you feel
-  - **-1** lets only one frame wait: about one frame less delay (three frames become two)
-  - **Max** lets no frames wait: the lowest delay. The game then waits for your graphics card every frame,
-    so it needs some performance headroom, or it may stutter
+- **Reduced Input Delay**. One frame less delay. Finished frames go to the screen at once instead of waiting in a
+  queue, and the game times each frame to the screen refresh, so frames still come at an even pace. Needs Xenia's
+  `framerate_limit = 0` and no FPS cap in RTSS or the graphics driver
+  - **On** works on most PCs
+  - **Max** shows each frame a little sooner, but needs some performance headroom, or frames may come unevenly
 - **60 FPS Cutscenes**. Cutscenes run at a steady 60 fps
 - **All Difficulties Unlocked**. Mentor and Master Ninja are available for a New Game
 
@@ -169,7 +182,8 @@ Cheats that give items or upgrades stay in your save if you save the game at a s
   ![Hi-Res Font, before and after: weapon details](images/font_compare_details.jpg)
 
   ![Hi-Res Font, before and after: pause menu](images/font_compare_options.jpg)
-- **Experimental: Native 2x MSAA** (off by default, 16:9 only): smoother edges, higher GPU load. Don't use it together
+- **Experimental: Native 2x MSAA** (off by default, 16:9 only): smoother edges, higher GPU load (about a quarter
+  more; heavy scenes like Ultimate Techniques in big crowds may drop frames on a weaker GPU). Don't use it together
   with Widescreen 21:9
 
 ## Title Update notes
@@ -193,6 +207,13 @@ If that line is missing, the mod will not load
   **Close Xenia completely before starting again.** This is a bug in Xenia's plugin system, not in the mod
 - **60 FPS Cutscenes**. In my experience, audio seems to gradually go out of sync in some cutscenes
   This still needs more testing and research
+
+## License
+
+**Permission required.** Free to use with your own copy of the game. Using the mod's code, patches or other
+parts in other projects (ports, recompilations, other mods) and re-uploading the mod need my permission: ask me on
+[Discord](https://discord.com/users/371353069201653773). Versions before 1.1.1 stay under the MIT License. Full
+text: LICENSE.txt
 
 ## Credits
 
