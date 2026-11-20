@@ -201,16 +201,13 @@ If that line is missing, the mod will not load
 
 ## License
 
-> [!NOTE]
-> **Working on a port, a recompilation or another mod?** I know the mod's code is out there and can be taken apart.
-> Still, please ask me before you port my features to your project. Message me on
-> [Discord](https://discord.com/users/371353069201653773): that way I know where my work is used, and I can help you
-> port my own features properly.
+**Permission required.** Free to use with your own copy of the game.
 
-**Permission required.** Free to use with your own copy of the game. Using the mod's code, patches or other
-parts in other projects (ports, recompilations, other mods) and re-uploading the mod need my permission: ask me on
-[Discord](https://discord.com/users/371353069201653773). Versions before 1.1.1 stay under the MIT License. Full
-text: LICENSE.txt
+Working on a port, a recompilation or another mod? I know the mod's code is out there and can be taken apart.
+Still, please ask me on [Discord](https://discord.com/users/371353069201653773) before you port my features to your project or re-upload
+the mod: that way I know where my work is used, and I can help you port my own features properly.
+
+Versions before 1.1.1 stay under the MIT License. Full text: LICENSE.txt
 
 ## Credits
 
