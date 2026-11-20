@@ -1,6 +1,6 @@
 # Ninja Gaiden II Master Edition
 
-![Ninja Gaiden II Master Edition](images/banner_v11b.jpg)
+![Ninja Gaiden II Master Edition](images/banner_v12.jpg)
 
 > [!TIP]
 > **1.1.1 Update is live!**
