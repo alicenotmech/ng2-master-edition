@@ -2,6 +2,8 @@
 
 ![Ninja Gaiden II Master Edition](images/banner_v11b.jpg)
 
+An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
+
 > [!TIP]
 > **1.1.1 Update is live!**
 > - Improved Reduced Input Delay
@@ -9,16 +11,13 @@
 > - 2x MSAA fixes
 > - Various bugfixes
 
-An enhancement mod with a bunch of features for the original **Ninja Gaiden II** on the **Xenia Edge** emulator.
-
 > [!NOTE]
 > **Contact:** questions, bug reports and ideas go to my [Discord](https://discord.com/users/371353069201653773).
 >
 > **Working on a port, a recompilation or another mod?** I know the mod's code is out there and can be taken apart.
 > Still, please ask me before you port my features to your project. Message me on
 > [Discord](https://discord.com/users/371353069201653773): that way I know where my work is used, and I can help you
-> port my own features properly. A lot of them depend on small details of the game's code that are easy to miss in
-> a blind copy.
+> port my own features properly.
 
 ## What you get
 
