@@ -1,20 +1,28 @@
-Ninja Gaiden II Master Edition
-Copyright (c) 2026 alicenotmech. All rights reserved.
+MIT License
 
-You may download this mod and use it with your own copy of the game.
+Copyright (c) 2026 alicenotmech
 
-Without written permission from alicenotmech, you may not:
-- use the code, patches, data or tools of this mod, or parts of them, in other projects,
-  including ports, recompilations and other mods;
-- re-upload the mod or modified versions of it. Please link to the GitHub page instead.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-To ask for permission, message alicenotmech on Discord:
-https://discord.com/users/371353069201653773
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Versions before 1.1.1 stay under the MIT License they were released with.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-Parts by other authors keep their own terms: "1280x720 Resolution" by Margen67, and Instant Charge
-and Rich Essence, based on Xenia patches by bader0418. Hide Ranged on Back was co-created with MegidoKira.
-Ninja Gaiden II is a trademark of its owners; you need your own copy of the game.
+---
 
-THE MOD IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+This license covers the patches, plugin code and tools by alicenotmech. Parts by other authors keep their own terms:
+"1280x720 Resolution" by Margen67, and Instant Charge and Rich Essence, based on Xenia patches by bader0418. Hide
+Ranged on Back was co-created with MegidoKira. Ninja Gaiden II is a trademark of its owners; you need your own copy
+of the game.

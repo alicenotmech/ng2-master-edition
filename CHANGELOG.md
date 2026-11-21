@@ -33,13 +33,6 @@ Improved Reduced Input Delay, wall attack aiming, 2x MSAA fixes and an Infinite 
 - Fixed: **Infinite Ninpo** with an empty ninpo gauge now fills the gauge on the first cast. Before, it let you cast
   but the gauge stayed empty
 
-### License
-
-- The mod is now **Permission required**: using its code, patches or other parts in other projects (ports,
-  recompilations, other mods) and re-uploading it need my permission. Ask me on
-  [Discord](https://discord.com/users/371353069201653773). Versions before 1.1.1 stay under the MIT License. See
-  LICENSE
-
 ## [1.1.0] - 2026-11-14
 
 Combat fixes, new cheats and visual options, and MASTER OPTIONS as its own title menu item.
