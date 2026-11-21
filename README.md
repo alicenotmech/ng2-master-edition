@@ -199,6 +199,14 @@ If that line is missing, the mod will not load
 - **60 FPS Cutscenes**. In my experience, audio seems to gradually go out of sync in some cutscenes
   This still needs more testing and research
 
+## License
+
+MIT License, full text in LICENSE.txt.
+
+Working on a port, a recompilation or another mod? You're free to use the mod's code. Still, please message me on
+[Discord](https://discord.com/users/371353069201653773) first: that way I know where my work is used, and I can help
+you port my features properly.
+
 ## Credits
 
 Mod by alicenotmech  
